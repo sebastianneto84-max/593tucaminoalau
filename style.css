@@ -2622,6 +2622,7 @@ hyphens: auto; /* Corta las palabras largas con guiones si es necesario para un 
 
 /* Forzar el color azul únicamente en la caja de descripción del hero */
 .hero .subtitle-box {
-    background-color: #1e3a8a !important;
-    color: white !important;
+    background-color: #FFFF00 !important;
+    color: black !important;
+    font-weight: 900
 }
