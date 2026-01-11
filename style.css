@@ -2619,3 +2619,9 @@ hyphens: auto; /* Corta las palabras largas con guiones si es necesario para un 
         font-size: 1.1rem;
     }
 }
+
+/* Forzar el color azul únicamente en la caja de descripción del hero */
+.hero .subtitle-box {
+    background-color: #1e3a8a !important;
+    color: white !important;
+}
