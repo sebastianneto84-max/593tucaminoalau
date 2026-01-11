@@ -2597,4 +2597,25 @@ hyphens: auto; /* Corta las palabras largas con guiones si es necesario para un 
     .test-wrapper iframe {
         height: 600px; /* Un poco más pequeño en móvil */
     }
+
+}
+
+/* Estilo para el título sobre el video de metodología */
+.titulo-metodologia-video {
+    color: var(--brown); /* Color café de tu configuración */
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 1.2rem 0; /* Alineación vertical con los headers laterales */
+    margin: 0;
+    display: block;
+}
+
+/* Ajuste opcional para móviles */
+@media (max-width: 768px) {
+    .titulo-metodologia-video {
+        padding: 0.5rem 0 1rem;
+        font-size: 1.1rem;
+    }
 }
