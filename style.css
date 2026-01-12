@@ -149,12 +149,14 @@ nav .menu a:hover { background: rgba(255, 255, 255, 0.2); }
   height: 100%; 
 }
 
-.hero-image img { 
+.hero-image img, 
+.hero-image iframe { 
   width: 100%; 
-  height: 100%; 
+  height: 400px; 
   object-fit: cover; /* Ajusta imagen sin deformar */
   border-radius: var(--radius); 
   display: block;
+  border: none;
 }
 
 /* ====== PRUEBA RÁPIDA ====== */
@@ -2626,3 +2628,4 @@ hyphens: auto; /* Corta las palabras largas con guiones si es necesario para un 
     color: black !important;
     font-weight: 900
 }
+
