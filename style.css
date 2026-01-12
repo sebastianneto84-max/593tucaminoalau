@@ -2629,3 +2629,15 @@ hyphens: auto; /* Corta las palabras largas con guiones si es necesario para un 
     font-weight: 900
 }
 
+/* Esto asegura que el video esté "al frente" y reciba clics */
+.hero-image iframe {
+    position: relative;
+    z-index: 10;
+    pointer-events: auto !important; /* Fuerza a que el video sea cliqueable */
+}
+
+/* Si tienes una capa decorativa o sombra, dile que ignore los clics */
+.hero-image::after, 
+.hero-image::before {
+    pointer-events: none !important;
+}
